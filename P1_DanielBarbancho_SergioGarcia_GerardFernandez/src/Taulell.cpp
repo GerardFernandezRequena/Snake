@@ -2,78 +2,100 @@
 #include <iostream>
 using namespace std;
 
+// Definición del constructor de la clase Taulell
 Taulell::Taulell()
 {
+    // Inicialización de la variable "aSnake" de la clase Taulell con un puntero nulo (nullptr)
     Taulell::aSnake = nullptr;
 }
 
 Taulell::~Taulell()
 {
+    // En el destructor de la clase Taulell.
+
+    // Borra la memoria asignada al puntero 'aSnake'.
     delete Taulell::aSnake;
 }
 
+// Esta es la definición de la función "getFiles" en la clase "Taulell".
 int Taulell::getFiles()
 {
+    // En esta línea, estamos retornando el valor de la variable estática "files" de la clase "Taulell".
     return Taulell::files;
 }
 
 int Taulell::getColumnes()
 {
-    return Taulell::columnes;
+    return Taulell::columnes; // Esta función devuelve el valor de la variable 'columnes' de la clase Taulell.
 }
 
 int Taulell::getnBonificadors()
 {
-    return Taulell::nBonificacions;
+    return Taulell::nBonificacions;  // Devuelve el valor de la variable estática nBonificacions en la clase Taulell.
 }
+
 
 void Taulell::inici(int quantes)
 {
+    // Establece la cantidad de bonificaciones en el tablero.
     Taulell::nBonificacions = quantes;
+
+    // Crea un objeto Snake y lo almacena en aSnake.
     Taulell::aSnake = new Snake(quantes);
 
-    for(int i = 0;i<quantes;i++)
+    // Itera 'quantes' veces para colocar las bonificaciones en el tablero.
+    for (int i = 0; i < quantes; i++)
     {
+        // Genera una fila aleatoria entre 1 y 8.
         int fila = 1 + (rand() % 8);
+
+        // Genera una columna aleatoria entre 0 y 7.
         int columna = (rand() % 8);
+
+        // Verifica si la celda en la fila y columna generadas ya contiene una bonificación.
         while (Taulell::contenidor[fila][columna] == 1)
         {
+            // Si la celda ya contiene una bonificación, genera nuevas coordenadas aleatorias.
             fila = 1 + (rand() % 8);
             columna = (rand() % 8);
         }
+
+        // Marca la celda en la fila y columna generadas como conteniendo una bonificación.
         Taulell::contenidor[fila][columna] = 1;
     }
 }
 
+
 void Taulell::visualitzar()
 {
-    // Capçalera del taulell
+    // Capçalera del tablero
     cout << " " << " ";
-    for(int i = 0; i<Taulell::columnes;i++)
+    for(int i = 0; i < Taulell::columnes; i++)
     {
-        cout << i;
+        cout << i; // Imprime el número de columna
     }
 
-    cout << " \n";
+    cout << " \n"; // Nueva línea para la siguiente fila
 
-    // Resta del taulell
-
-    for(int i = 0;i<Taulell::files;i++)
+    // Resto del tablero
+    for(int i = 0; i < Taulell::files; i++)
     {
-        cout << i << "|";
-        for(int j = 0;j<Taulell::columnes;j++)
+        cout << i << "|"; // Imprime el número de fila seguido de un "|"
+        for(int j = 0; j < Taulell::columnes; j++)
         {
-            if(Taulell::contenidor[i][j] == 1) cout << "&";
+            if(Taulell::contenidor[i][j] == 1)
+                cout << "&"; // Si el valor en la posición [i][j] es 1, imprime "&"
             else
             {
                 bool comprovar = Taulell::aSnake->visualitza(i, j);
-                if(comprovar == false) cout << " ";
+                if(comprovar == false)
+                    cout << " "; // Si visualitza(i, j) devuelve false, imprime un espacio en blanco
             }
         }
-        cout << "|\n";
+        cout << "|\n"; // Cierra la fila con "|", luego agrega una nueva línea
     }
-
 }
+
 
 bool Taulell::movimentSerp(MyEnum::eDirection dir)
 {
