@@ -1,0 +1,274 @@
+# depslib dependency file v1.0
+1696488549 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1696488644 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\include\myenum.h
+	<iostream>
+	<string>
+
+1696840648 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1696763492 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1696505094 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1696762864 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\src\snake.cpp
+	"Snake.h"
+
+1696505208 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1696841691 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1696505271 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697450411 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697443078 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697443078 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697443078 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697443078 c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697443078 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697443078 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697443078 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697455239 source:c:\users\dani2\onedrive\documentos\c++_projects\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1697403370 source:d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697403370 d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697403370 d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697403370 d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697403370 d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697403370 source:d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697403370 source:d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697403370 source:d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1697019869 source:d:\tecnouni\2 geisi\1er trimestre\programaciÓ avanÇada\activitats\activitat 1\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697392128 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697104421 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697387573 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697390924 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697388541 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697104421 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697388527 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697391842 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697392818 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia-master\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1697399478 source:c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697393616 c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697393616 c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697393741 c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697393616 c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697393616 source:c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697396824 source:c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697402652 source:c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697400524 source:c:\users\sergio\desktop\uni\año 2\programación avanzada\c++\snake game\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1697467777 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697455470 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697455470 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697455470 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697455470 c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697455470 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697455470 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697455470 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697455470 source:c:\users\dani2\desktop\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
+1697467914 source:d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\main.cpp
+	<iostream>
+	"../include/MyEnum.h"
+	"../include/Taulell.h"
+
+1697467914 d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\myenum.h
+	<iostream>
+	<string>
+
+1697467914 d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\taulell.h
+	<iostream>
+	<string>
+	"../include/Snake.h"
+	"../include/MyEnum.h"
+
+1697467914 d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\snake.h
+	<iostream>
+	<string>
+	"../include/Position.h"
+
+1697467914 d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\include\position.h
+	<iostream>
+	<string>
+	"../include/MyEnum.h"
+
+1697467914 source:d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\myenum.cpp
+	"../include/MyEnum.h"
+
+1697467914 source:d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\position.cpp
+	"Position.h"
+	<iostream>
+
+1697467914 source:d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\snake.cpp
+	"Snake.h"
+
+1697467914 source:d:\dmp\p1_danielbarbancho_sergiogarcia_gerardfernandez\src\taulell.cpp
+	"Taulell.h"
+	<iostream>
+
